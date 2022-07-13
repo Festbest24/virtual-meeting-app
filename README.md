@@ -1,4 +1,4 @@
-Documentation of VMeet android application
+Documentation of VirtualMeeting android application
 OverView
 Hi Please follow below steps to configure and make changes in application source code.
 
