@@ -1,4 +1,4 @@
-Documentation of VMeet android application
+Documentation of VirtualMeeting android application
 OverView
 Hi Please follow below steps to configure and make changes in application source code.
 Installation
@@ -14,7 +14,8 @@ Download & Install Java from here Java JDK
 Download Java by clicking on Java Platform (JDK)
 Install Android Studio
 Download & Install Android Studio from here Download Android Studio
- 
+ ![image](https://user-images.githubusercontent.com/105209103/178787764-887dbffd-08d9-4e1e-8130-33604899d48b.png)
+
 Run Android SDK Manager and download necessary SDK packages, make sure that you have installed Android SDK Tools, Android SDK Platform-tools, Android SDK Build-tools, Android Support Repository, Android Support Library and Google Play services.
 Now you should be able to open/edit the Android project and build APK.
 How to Import Project
@@ -25,13 +26,15 @@ Follow steps to import project
 3.	Now select “Import Project (Gradle, Eclipse ADT, etc.)” from Android Studio.
 4.	Browse location where you have placed VMeet Code and press “OK” button.
 5.	Now, wait till android studio complete the Importing project successfully.
- 
+ ![image](https://user-images.githubusercontent.com/105209103/178787810-f7d85d3c-ee50-438b-93ac-636e965908fa.png)
+
 Import project
 By clicking on import project you will get file browser dialog, select your code location and press OK button.
 Customize Project
 Project Structure
 After importing project successfully you will get project structure like below image
- 
+ ![image](https://user-images.githubusercontent.com/105209103/178787853-42685701-dcc2-4543-a26c-445464d94786.png)
+
 Project Structure
 Within each Android app module, files are shown in the following groups:
 manifest
@@ -49,7 +52,8 @@ In Android Studio, you can do this:
 For example, if you want to change com.example.app to my.awesome.game, then:
 1.	In your Project pane, click on the little gear icon (   )
 2.	Uncheck / De-select the Compact Empty Middle Packages option
- 
+ ![image](https://user-images.githubusercontent.com/105209103/178787933-cf5368a9-72bf-4341-ba1a-c485231070c4.png)
+
 3.	Your package directory will now be broken up in individual directories
 4.	Individually select each directory you want to rename, and:
 o	Right-click it
@@ -60,9 +64,11 @@ o	Enter the new name and hit Refactor
 o	Click Do Refactor in the bottom
 o	Allow a minute to let Android Studio update all changes
 o	Note: When renaming com in Android Studio, it might give a warning. In such case, select Rename All
- 
+ ![image](https://user-images.githubusercontent.com/105209103/178787992-18a7d7f3-2d2a-4364-bfc4-9c2f40010b86.png)
+
 5.	Now open your Gradle Build File (build.gradle - Usually app or mobile). Update the applicationId in the defaultConfig to your new Package Name and Sync Gradle, if it hasn’t already been updated automatically:
- 
+ ![image](https://user-images.githubusercontent.com/105209103/178788025-a928208c-2d15-4d14-a013-7b413aecb715.png)
+
 6.	You may need to change the package= attribute in your manifest.
 7.	Clean and Rebuild.
 8.	Done! Anyway, Android Studio needs to make this process a little simpler.
@@ -70,21 +76,25 @@ Firebase Database Setup
 Please refere below link for create new app in firebase.
 http://mariechatfield.com/tutorials/firebase/step1.html
 Replace your generated google-service.json
- 
+ ![image](https://user-images.githubusercontent.com/105209103/178788083-e13b86cb-e359-4310-ba4e-ad3a877bcb05.png)
+
 Firebase Auth Setup
 Please refere below link for enable Email auth in firebase.
 https://firebase.google.com/docs/auth/web/email-link-auth
 Enable Auth as shown in attached image
- 
+ ![image](https://user-images.githubusercontent.com/105209103/178788128-0cb02e02-8d64-4a3c-85f0-b7ef5bc211d4.png)
+
 Enable Firebase Database
 Navigate to the Database section of the Firebase console. You’ll be prompted to select an existing Firebase project
- 
+ ![image](https://user-images.githubusercontent.com/105209103/178788153-70cdeb23-7117-4fc4-ace1-dc10383409f8.png)
+
 Select a starting mode for your Firebase Security Rules:
 Test mode
 Good for getting started with the mobile and web client libraries, but allows anyone to read and overwrite your data. After testing, make sure to review the Understand Firebase Realtime Database Rules section.
 Enable Firebase Storage
 To allow your app access to Firebase Storage, you need to set up permissions in the Firebase console. From your console, click on Storage, and then click on Rules.
- 
+ ![image](https://user-images.githubusercontent.com/105209103/178788227-674286da-7222-4595-8d9a-58ab3679ff82.png)
+
 Paste the rule below and publish.
 `service firebase.storage {` 
     `match /b/{bucket}/o {`
@@ -107,11 +117,13 @@ Want to know more?? Follow this link - https://developers.google.com/admob/andro
 3.	Select the newly created App and click on ADD AD UNIT button to create a new ad unit.
 4.	Select the ad format and give the ad unit a name.
 5.	Once the ad unit is created, you can notice the Ad unit ID on the dashboard. An example of ad unit id look like ca-app-pub-066XXXXXXX/XXXXXXXXXXX
- 
+ ![image](https://user-images.githubusercontent.com/105209103/178788316-b17b9da7-7cde-43e0-a09f-e252375f8a3a.png)
+
 Create ad unit for banner ads
 After creating banner ad unit and interstitial ad unit you have to place you adUnit id in string.xml file.
 app > res > values > string.xml
- 
+ ![image](https://user-images.githubusercontent.com/105209103/178788352-f5c837d7-c7fd-479d-be48-f548e5835783.png)
+
 Resource Credits
 Thanks for provide great material and we are very appreciates to our assets provider.
 Google Fonts
