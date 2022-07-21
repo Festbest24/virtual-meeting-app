@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "972566171967",
+    "firebase_url": "https://cc-vmeet.firebaseio.com",
+    "project_id": "cc-vmeet",
+    "storage_bucket": "cc-vmeet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972566171967:android:c3a0b1e8cddd4ebffb438a",
+        "android_client_info": {
+          "package_name": "com.itechnotion.vmeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972566171967-4sc8ftqafhf668k8dlnl6hgrovplbbbe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itechnotion.vmeet",
+            "certificate_hash": "14789ad3855aa689fdcae522976544b7d63be5a4"
+          }
+        },
+        {
+          "client_id": "972566171967-isg7dp2h892baf02890gqjc19s928poa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr-lKNd62hiFhHsHrue8bF8BxwBN7emrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972566171967-isg7dp2h892baf02890gqjc19s928poa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "972566171967-3j5nr15tv0bkt9em82r051jfomcfmhhq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.itechnotion.vmeet"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972566171967:android:eb5075ea8371b5b6fb438a",
+        "android_client_info": {
+          "package_name": "com.webilestudio.vmeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972566171967-isg7dp2h892baf02890gqjc19s928poa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr-lKNd62hiFhHsHrue8bF8BxwBN7emrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972566171967-isg7dp2h892baf02890gqjc19s928poa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "972566171967-3j5nr15tv0bkt9em82r051jfomcfmhhq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.itechnotion.vmeet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
